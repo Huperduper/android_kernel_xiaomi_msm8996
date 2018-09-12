@@ -1722,7 +1722,6 @@ endif
 
 KBUILD_CPPFLAGS += $(CDEFINES)
 
-
 ifeq ($(call cc-option-yn, -Wheader-guard),y)
 EXTRA_CFLAGS += -Wheader-guard
 endif
